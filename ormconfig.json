@@ -1,0 +1,13 @@
+{
+  "type": "postgres",
+  "port": 5432,
+  "host": "db_arloesi",
+  "username": "docker",
+  "password": "123",
+  "database": "arloesi",
+  "entities": ["./src/external/database/postgresql/orms/typeorm/entities/**.ts"],
+  "migrations": ["./src/external/database/postgresql/orms/typeorm/migrations/*.ts"],
+  "cli": {
+    "migrationsDir": "./src/external/database/postgresql/orms/typeorm/migrations"
+  }
+}
